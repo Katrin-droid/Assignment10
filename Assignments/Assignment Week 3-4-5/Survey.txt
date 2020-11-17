@@ -1,0 +1,15 @@
+survey 
+1.How old are you?
+2.What is your gender?
+3.Where are you from?
+4.What is your occupation?
+5.Have you ever played video games? What is your preffered platform?
+6.How much time are you spending in front of the computer playing video games?
+7.Have you ever spend money on games or features in games?
+8.Have you ever heard of Among Us? 
+9.The game is available on mobile for free but there is also a paid version of the game for PC. Would you buy it to support the creators?
+10.How much time on average do you spend playing the game?
+11.If you are enjoing the game what is the reason behind it?
+12.Who do you play the game with?
+13.Do you play the game just to kill time or to have fun?
+14.Would you recommend the game to others?

@@ -1,0 +1,26 @@
+EDO idea 1
+stores in the Eindhoven/food,clothes,cosmetics,electronics 
+-tab with the cheapest stores in eindhoven 
+-description of each store,rating
+-address,location in google maps if possible,opening and closing hours 
+-stores for almost everything-hema,primark,kruidvat
+
+Target group - why is that our target group , why we decided to do this app and what are we expecting from our users//word
+while using our application, word document?
+wireframe-wireframing lets you plan the layout and interaction of your interface.
+sketch-description of the application ,drawings,
+storyboard-a persona using our app ,drawings 
+
+Food Markets with fresh foods-Centre Market-The market in the centre is from 09.00 to 16.00 every Tuesday.
+aldi-food cheap
+
+Typical opening hours:
+City center
+Monday: 13.00 - 18.00 h. (some stores open at 11.00 h.)
+Tuesday to Thursday: 09.30 - 18.00 h.
+Friday: 09.30 - 20.00 h.
+Saturday: 09.30 - 17.00 h. (Piazza Center till 18.00 h.)
+
+Strijp-S
+Wednesday to Friday: 11.00 – 18.00 h.
+Saturday: 11:00 – 17.00 h.
