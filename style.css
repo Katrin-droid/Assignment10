@@ -6,7 +6,9 @@
 body{
 	margin: 0;
 	font-family: Play;
-	background: url(snimka/wallhaven.JPG);
+	background: url(snimka/wallhaven.jpg) no-repeat center center fixed;
+	background-size: cover;
+	
 }
 
 .container-fullwidth{
@@ -69,16 +71,6 @@ body{
 	color: #fff;
 	cursor: pointer;
 	transition: 0.3s;
-}
-
-.social-media{
-	float: right;
-	width: auto;
-	padding: 31px 0;
-}
-
-.social-media img{
-	width: 105px;
 }
 
 .main{
@@ -183,7 +175,18 @@ body{
 transform: scale(1.1);
 	transition: 0.5s;	
 }
-
+.linkedimg img {
+	float: right;
+	width: 200px;
+	padding: 10px;
+	margin-left: 20px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+}
+.linkedimg img:hover{
+transform: scale(1.1);
+	transition: 0.5s;	
+}
 .AssignmentWeek1{
 	padding: 20px;
 	float: left;
@@ -265,3 +268,4 @@ transform: scale(1.1);
 transform: scale(1.1);
 	transition: 0.5s;	
 }
+
