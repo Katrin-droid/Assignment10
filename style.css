@@ -6,7 +6,7 @@
 body{
 	margin: 0;
 	font-family: Play;
-	background: url(snimka/wallhaven.jpg) no-repeat center center fixed;
+	background: url(pic/home.jpg) no-repeat center center fixed;
 	background-size: cover;
 	
 }
@@ -14,11 +14,13 @@ body{
 .container-fullwidth{
 	width: 100%;
 	float: left;
+	margin-bottom: 100px;
 }
 
 .container {
 	width: 1280px;
 	margin: auto;
+	
 }
 
 .header-wrap{
@@ -91,26 +93,26 @@ body{
 	transition: 0.5s;
 }
 
-.about-me-text{
+.about-us-text{
 	float: left;
 	width: 80%;
 }
 
-.about-me-image{
+.about-us-image{
 	float: right;
 	width: 20%;
 }
 
-.about-me-image img{
+.about-us-image img{
 	transition: 0.5s;
 }
 
-.about-me-image img:hover{
+.about-us-image img:hover{
 	transform: scale(1.1);
 	transition: 0.5s;
 }
 
-.aboutme{
+.aboutus{
 	padding: 20px;
 	float: left;
 	width: 100%;
@@ -121,35 +123,40 @@ body{
 	box-sizing: border-box;
 }
 
-.aboutme h1{
+.aboutus h1{
 	padding: 5px 0 5px 0;
 	margin: 0;
 }
 
-.aboutme img{
+.aboutus img{
 	float: right;
 	width: 200px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-right: 5px;
+    margin-left: 50px;
 	border-left: 5px solid #fff;
 	border-right: 5px solid #fff;
 	border-top: 5px solid #fff;
 	border-bottom: 5px solid #fff;
 }
 
-.aboutme hr{
+.aboutus hr{
 	padding:1px;
 	float:left;
 	margin: 0;
 	width: 100%;
 }
 
-.aboutme p{
+.aboutus p{
 	text-align: left;
 	padding: 1px;
 	font-size: 20px;
 	font-weight: bold;
 	color: #fff;
 }
-.contactme{
+
+.contactus{
 	padding: 20px;
 	float: left;
 	width: 100%;
@@ -159,11 +166,11 @@ body{
 	color: #fff;
 	box-sizing: border-box;
 }
-.contact-me h1{
+.contact-us h1{
 	margin-top: 0;
 }
 	
-.contact-me-image1 img {
+.contact-us-image1 img {
 	float: left;
 	width: 200px;
 	padding: 10px;
@@ -171,7 +178,7 @@ body{
 	margin-right: 50px;
 	margin-bottom: 50px;
 }
-.contact-me-image1 img:hover{
+.contact-us-image1 img:hover{
 transform: scale(1.1);
 	transition: 0.5s;	
 }
@@ -187,7 +194,7 @@ transform: scale(1.1);
 transform: scale(1.1);
 	transition: 0.5s;	
 }
-.AssignmentWeek1{
+.Login{
 	padding: 20px;
 	float: left;
 	width: 100%;
@@ -197,8 +204,17 @@ transform: scale(1.1);
 	color: #fff;
 	box-sizing: border-box;
 }
-
-.AssignmentWeek1 img {
+.Login p{
+	float: right;
+	margin-right: 100px;
+	margin-top:40px;
+	text-align: left;
+	padding: 1px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+.Login img {
 	float: left;
 	width: 200px;
 	padding: 10px;
@@ -206,11 +222,11 @@ transform: scale(1.1);
 	margin-right: 50px;
 	margin-bottom: 50px;
 }
-.AssignmentWeek1 img:hover{
-transform: scale(1.1);
+.Login img:hover{
+transform: scale(1.5 );
 	transition: 0.5s;	
 }
-.AssignmentWeek2{
+.Register{
 	padding: 20px;
 	float: left;
 	width: 100%;
@@ -220,8 +236,17 @@ transform: scale(1.1);
 	color: #fff;
 	box-sizing: border-box;
 }
-
-.AssignmentWeek2 img {
+.Register p{
+	float: right;
+	margin-right: 270px;
+	margin-top:40px;
+	text-align: left;
+	padding: 1px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+.Register img {
 	float: left;
 	width: 200px;
 	padding: 10px;
@@ -229,11 +254,11 @@ transform: scale(1.1);
 	margin-right: 50px;
 	margin-bottom: 50px;
 }
-.AssignmentWeek2 img:hover{
-transform: scale(1.1);
+.Register img:hover{
+transform: scale(1.5);
 	transition: 0.5s;	
 }
-.AssignmentWeek345{
+.Options{
 	padding: 20px;
 	float: left;
 	width: 100%;
@@ -243,20 +268,17 @@ transform: scale(1.1);
 	color: #fff;
 	box-sizing: border-box;
 }
-.AssignmentWeek345 h1 >{
-	margin-top: 0;
-}
-.AssignmentWeek78{
-	padding: 20px;
-	float: left;
-	width: 100%;
-	background-color: rgb(0, 0, 0, 0.4);
-	border: 1px solid #fff;
-	margin-top: 100px;
+.Options p{
+	float: right;
+	margin-right: 250px;
+	margin-top:40px;
+	text-align: left;
+	padding: 1px;
+	font-size: 20px;
+	font-weight: bold;
 	color: #fff;
-	box-sizing: border-box;
 }
-.AssignmentWeek78 img {
+.Options img {
 	float: left;
 	width: 200px;
 	padding: 10px;
@@ -264,8 +286,105 @@ transform: scale(1.1);
 	margin-right: 50px;
 	margin-bottom: 50px;
 }
-.AssignmentWeek78 img:hover{
-transform: scale(1.1);
+.Options img:hover{
+transform: scale(1.5);
 	transition: 0.5s;	
 }
-
+.Calendar{
+	padding: 20px;
+	float: left;
+	width: 100%;
+	background-color: rgb(0, 0, 0, 0.4);
+	border: 1px solid #fff;
+	margin-top: 100px;
+	color: #fff;
+	box-sizing: border-box;
+}
+.Calendar p{
+	float: right;
+	margin-right: 100px;
+	margin-top:40px;
+	text-align: left;
+	padding: 1px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+.Calendar img {
+	float: left;
+	width: 200px;
+	padding: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+.Calendar img:hover{
+transform: scale(1.5);
+	transition: 0.5s;	
+}
+.Rules{
+	padding: 20px;
+	float: left;
+	width: 100%;
+	height: 355px;
+	background-color: rgb(0, 0, 0, 0.4);
+	border: 1px solid #fff;
+	margin-top: 100px;
+	color: #fff;
+	box-sizing: border-box;
+}
+.Rules p{
+	float: right;
+	margin-right: 250px;
+	margin-top:40px;
+	text-align: left;
+	padding: 1px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+.Rules img {
+	float: left;
+	width: 200px;
+	padding: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	
+}
+.Rules img:hover{
+transform: scale(1.5);
+	transition: 0.5s;	
+}
+.Complaints{
+	padding: 20px;
+	float: left;
+	width: 100%;
+	background-color: rgb(0, 0, 0, 0.4);
+	border: 1px solid #fff;
+	margin-top: 100px;
+	color: #fff;
+	box-sizing: border-box;
+}
+.Complaints p{
+	float: right;
+	margin-right: 100px;
+	margin-top:40px;
+	text-align: left;
+	padding: 1px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+.Complaints img {
+	float: left;
+	width: 200px;
+	padding: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+.Complaints img:hover{
+transform: scale(1.5);
+	transition: 0.5s;	
+}
